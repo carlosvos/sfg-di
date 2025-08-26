@@ -1,12 +1,15 @@
 package guru.springframwork.sfg_di;
 
-import guru.springframwork.sfg_di.controllers.*;
+import guru.springframwork.sfg_di.controllers.ConstructorInjectedController;
+import guru.springframwork.sfg_di.controllers.I18nController;
+import guru.springframwork.sfg_di.controllers.MyController;
+import guru.springframwork.sfg_di.controllers.PetController;
+import guru.springframwork.sfg_di.controllers.PropertyInjectedController;
+import guru.springframwork.sfg_di.controllers.SetterInjectedController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan({"guru.springframwork.sfg_di","com.springframework.pets"})
 @SpringBootApplication
 public class SfgDiApplication {
 
